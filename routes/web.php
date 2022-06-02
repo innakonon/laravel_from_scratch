@@ -26,7 +26,7 @@ Route::get('/', function () {
         'posts' => Post::all()
     ]);
 });
-
+//comment on route
 Route::get('posts/{post}', function ($slug) {
 
     $post = Post::find($slug);
