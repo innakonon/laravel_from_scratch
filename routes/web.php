@@ -27,6 +27,8 @@ Route::get('/', function () {
     ]);
 });
 //comment on route
+
+//another comment
 Route::get('posts/{post}', function ($slug) {
 
     $post = Post::find($slug);
